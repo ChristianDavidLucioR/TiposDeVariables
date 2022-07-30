@@ -2,6 +2,7 @@ public class TiposDeVariables {
 
     public static void main(String[] args) {
         System.out.println("-----------------------------------------------------------------------------------------");
+        System.out.println("                Tipos de Datos PRIMITIVOS\n");
         System.out.println("                Tipos de numeros enteros            ");
         byte valor = -128;
         byte valo2 = 127;
@@ -36,9 +37,17 @@ public class TiposDeVariables {
 
         boolean decision = true;
         boolean decision2 = false;
-        System.out.println("La desición es: "+decision +" y la segunda desicón es: "+decision2);
+        System.out.println("La desición del boolenan es: "+decision +" y la segunda desicón es: "+decision2);
         System.out.println("-----------------------------------------------------------------------------------------");
 
+        System.out.println("               Tipo de datos No PRIMITIVOS\n");
 
+        Integer vacio = null;
+        System.out.println("Probando tipos de datos no primitivos: "+vacio);
+
+        System.out.println("\n               Cadena de Texto");
+
+        String cadena = "Hola Mundo, Bienvenidos";
+        System.out.println(cadena);
     }
 }
